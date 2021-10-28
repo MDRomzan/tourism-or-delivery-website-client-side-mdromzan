@@ -1,0 +1,84 @@
+[
+    {
+        "key":"01",
+        "name":"Paris City",
+        "dec": "Paris is the capital of France. The city is located on the banks of the Seine in the heart of the -le-de-France region in northern France",
+        "price":"$2500",
+        "rating":"4.5",
+        "day":"5",
+        "img": "https://www.planetware.com/photos-large/F/france-paris-eiffel-tower.jpg"
+    },
+    {
+        "key": "012",
+        "name": "Switcherland",
+        "dec": "Switzerland or Switzerland is a state located on the continent of Europe. However, it is not a member of the European Union.",
+        "price": "$3500",
+        "rating": "5",
+        "day": "6",
+        "img": "https://travelnews.com.bd/wp-content/uploads/2019/09/Alps-Switzerland.jpg"
+    },
+    {
+        "key": "03",
+        "name": "Venice,Italy",
+        "dec": "Paris is the capital of France. The city is located on the banks of the Seine in the heart of the -le-de-France region in northern France",
+        "price": "$2700",
+        "rating": "4.0",
+        "day": "4",
+        "img": "https://lp-cms-production.imgix.net/2021-08/shutterstockRF_1433749823.jpg?auto=compress&fit=crop&fm=auto&sharp=10&vib=20&w=1200&h=800"
+    },
+    {
+        "key": "4",
+        "name": "Sydeny",
+        "dec": "Sydney is the capital of the state of New South Wales in Australia and the largest and most populous city in Australia and Oceania.",
+        "price": "$3000",
+        "rating": "5",
+        "day": "3",
+        "img": "https://homeiswhereyourbagis.com/wp-content/uploads/2019/11/Sydney-Opera-und-CBD-Skyline.jpg"
+    },
+    {
+        "key": "05",
+        "name": "Dubai",
+        "dec": "Dubai is the largest and most populous city in the United Arab Emirates. It is also the capital of the UAE. Located on the southeastern",
+        "price": "$2600",
+        "rating": "4.0",
+        "day": "7",
+        "img": "https://content.presspage.com/uploads/2431/1920_dubaiconnect.jpg?10000"
+    },
+    {
+        "key": "06",
+        "name": "Singapore City",
+        "dec": " Singapore's Convenient Location and Warm Climate . One of the reasons many expats cite for loving Singapore is its location within Asia.",
+        "price": "$3300",
+        "rating": "5.0",
+        "day": "4",
+        "img": "https://ovecedu.com/wp-content/uploads/singapore-1.jpg"
+    },
+    {
+        "key": "07",
+        "name": "London,UK",
+        "dec": "London is one of the most diverse cities on the planet. The city speaks more than 300 languages, making it the most interesting .",
+        "price": "$3500",
+        "rating": "4.5",
+        "day": "6",
+        "img": "https://london.ac.uk/sites/default/files/styles/max_1300x1300/public/2018-10/london-aerial-cityscape-river-thames_1.jpg?itok=6LenFxuz"
+    },
+    {
+        "key": "08",
+        "name": "Makkah Sharif,Saudi",
+        "dec": "Mecca is reputedly the birthplace of the Islamic prophet Muhammad.Jabele-nur . ",
+        "price": "$5500",
+        "rating": "5.0",
+        "day": "15",
+        "img": "http://2.bp.blogspot.com/-9lbfLpmWGEI/Va07WVNBsrI/AAAAAAAAEoM/iBron8_ZWdM/s1600/abraj-al-bait-towers-makkah.jpg"
+    },
+    {
+        "key": "09",
+        "name": "Cox's Bazar,BD",
+        "dec": "Cox's Bazar is a city, a fishing port and a tourist destination in southeastern Bangladesh. It is the headquarters of Cox's Bazar ",
+        "price": "$2500",
+        "rating": "4.5",
+        "day": "7",
+        "img": "https://sgp1.digitaloceanspaces.com/cosmosgroup/news/7725621_New%20Project%20(4).jpg"
+    }
+    
+]
