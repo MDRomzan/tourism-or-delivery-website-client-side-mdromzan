@@ -1,9 +1,10 @@
 import React from 'react';
-import { Link, useHistory, useLocation } from 'react-router-dom';
+import { useHistory, useLocation } from 'react-router';
+import { Link } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
-import "./login.css";
-const Login = () => {
-    const {googleSignIn,setUser,setError}=useAuth();
+
+const Register = () => {
+        const {googleSignIn,setUser,setError}=useAuth();
     const history=useHistory()
   const location=useLocation()
   const url = location.state?.from||"/home"
@@ -17,15 +18,14 @@ const Login = () => {
        
     }
     return (
-        <div className="d-flex justify-content-center mx-auto my-5">
+<div className="d-flex justify-content-center mx-auto my-5">
             <div className="card h-100 card-size">
             <button onClick={handleGoogleSignIn} className="btn-button">Google SignIn</button>
-             <p>New user?<Link to="/register">Please Register</Link></p>
+             <p>Already Register?<Link to="/login">Please login</Link></p>
             </div>
              
         </div>
-
     );
 };
 
-export default Login;
+export default Register;
