@@ -11,3 +11,6 @@
     background-color: rgb(237, 244, 248);
     color: white;
 }
+.n-link{
+    visibility: hidden;
+}

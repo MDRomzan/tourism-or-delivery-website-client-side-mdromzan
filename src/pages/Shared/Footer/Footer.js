@@ -41,7 +41,7 @@ const Footer = () => {
                 </p>
 
                 <p className="mt-5">
-                  <small>Medical © . All rights reserved.</small>
+                  <small>RD Best Travel Service © . All rights reserved.</small>
                 </p>
               </div>
             </div>
