@@ -37,7 +37,7 @@ const ManageServices = () => {
                 <img className="ima-size" src={service?.img}alt="" />
                 <h3>{service?.name}</h3>
                 <button onClick={()=>handleDelete(service._id)} className="btn-button">Delete</button>
-               <Link to={`/update-user/:${service._id}`}>
+               <Link to={`/update-user/${service._id}`}>
                     <button className="btn-button">Update</button>
                </Link>
                 
