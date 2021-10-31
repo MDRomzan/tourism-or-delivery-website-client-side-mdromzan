@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 // import { useForm } from 'react-hook-form';
 import { useParams } from 'react-router-dom';
 // import useAuth from '../../Hooks/useAuth';
-import useServices from '../../Hooks/useServices';
+
 // import { clearTheCart, getStoredCart } from '../../Uitilities/fakedb';
 
 import "./Booking.css"
@@ -12,10 +12,17 @@ const Booking = () => {
     // const {handleSubmit,register,reset,formState: { errors }}=useForm();
    
     // Use card matched
+    const [service,setService]=useState({})
     const {id}=useParams();
-    const {services}=useServices();
+    console.log(id)
+    useEffect(()=>{
+        fetch(`https://mysterious-cliffs-16987.herokuapp.com/services/${id}`)
+        .then(res =>res.json())
+        .then(data =>setService(data))
+    },[])
+    
     // console.log(services);
-    const matched=services.find(service=>(service._id==id));
+    
     // use form handle use part
     /*const onSubmit=(data)=>{
         const savedCart=getStoredCart();
@@ -43,9 +50,9 @@ const Booking = () => {
         // this is card 
         <div className="row m-4 p-4 container">
             <div className=" shadow-lg col-md-8 my-5 py-3 card">
-                <h2>{matched?.name}</h2>
-                <img className="cut-size" src={matched?.img} alt="" />
-               <p>{matched?.dec}</p>
+                 <h2>{service?.name}</h2>
+                <img className="cut-size" src={service?.img} alt="" />
+            <p>{service?.Description}</p> 
             </div>
             {/* This is form submit */}
             <div className="col-md-4 card my-5">

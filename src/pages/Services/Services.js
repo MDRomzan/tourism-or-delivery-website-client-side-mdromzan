@@ -13,7 +13,7 @@ const Services = () => {
     },[])
     return (
         <div className="container">
-            <div className="row">
+            <div className="row ">
                 {
                     services.map(service =><Service
                     key={service._id}

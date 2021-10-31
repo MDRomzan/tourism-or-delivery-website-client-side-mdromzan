@@ -2,7 +2,8 @@
     {
         "key":"01",
         "name":"Paris City",
-        "dec": "Paris is the capital of France. The city is located on the banks of the Seine in the heart of the -le-de-France region in northern France",
+        "Description":
+          "Paris is the capital of France. The city is located on the banks of the Seine in the heart of the -le-de-France region in northern France",
         "price":"$2500",
         "rating":"4.5",
         "day":"5",
@@ -11,7 +12,8 @@
     {
         "key": "012",
         "name": "Switcherland",
-        "dec": "Switzerland or Switzerland is a state located on the continent of Europe. However, it is not a member of the European Union.",
+        "Description":
+        "Switzerland or Switzerland is a state located on the continent of Europe. However, it is not a member of the European Union.",
         "price": "$3500",
         "rating": "5",
         "day": "6",
@@ -20,7 +22,8 @@
     {
         "key": "03",
         "name": "Venice,Italy",
-        "dec": "Paris is the capital of France. The city is located on the banks of the Seine in the heart of the -le-de-France region in northern France",
+        "Description"
+        : "Paris is the capital of France. The city is located on the banks of the Seine in the heart of the -le-de-France region in northern France",
         "price": "$2700",
         "rating": "4.0",
         "day": "4",
@@ -29,7 +32,8 @@
     {
         "key": "4",
         "name": "Sydeny",
-        "dec": "Sydney is the capital of the state of New South Wales in Australia and the largest and most populous city in Australia and Oceania.",
+        "Description":
+         "Sydney is the capital of the state of New South Wales in Australia and the largest and most populous city in Australia and Oceania.",
         "price": "$3000",
         "rating": "5",
         "day": "3",
@@ -38,7 +42,8 @@
     {
         "key": "05",
         "name": "Dubai",
-        "dec": "Dubai is the largest and most populous city in the United Arab Emirates. It is also the capital of the UAE. Located on the southeastern",
+        "Description":
+         "Dubai is the largest and most populous city in the United Arab Emirates. It is also the capital of the UAE. Located on the southeastern",
         "price": "$2600",
         "rating": "4.0",
         "day": "7",
@@ -47,7 +52,8 @@
     {
         "key": "06",
         "name": "Singapore City",
-        "dec": " Singapore's Convenient Location and Warm Climate . One of the reasons many expats cite for loving Singapore is its location within Asia.",
+        "Description":
+         "Singapore's Convenient Location and Warm Climate . One of the reasons many expats cite for loving Singapore is its location within Asia.",
         "price": "$3300",
         "rating": "5.0",
         "day": "4",
@@ -56,7 +62,8 @@
     {
         "key": "07",
         "name": "London,UK",
-        "dec": "London is one of the most diverse cities on the planet. The city speaks more than 300 languages, making it the most interesting .",
+        "Description":
+         "London is one of the most diverse cities on the planet. The city speaks more than 300 languages, making it the most interesting .",
         "price": "$3500",
         "rating": "4.5",
         "day": "6",
@@ -65,7 +72,7 @@
     {
         "key": "08",
         "name": "Makkah Sharif,Saudi",
-        "dec": "Mecca is reputedly the birthplace of the Islamic prophet Muhammad.Jabele-nur . ",
+        "Description": "Mecca is reputedly the birthplace of the Islamic prophet Muhammad.Jabele-nur . ",
         "price": "$5500",
         "rating": "5.0",
         "day": "15",
@@ -74,7 +81,7 @@
     {
         "key": "09",
         "name": "Cox's Bazar,BD",
-        "dec": "Cox's Bazar is a city, a fishing port and a tourist destination in southeastern Bangladesh. It is the headquarters of Cox's Bazar ",
+        "Description": "Cox's Bazar is a city, a fishing port and a tourist destination in southeastern Bangladesh. It is the headquarters of Cox's Bazar ",
         "price": "$2500",
         "rating": "4.5",
         "day": "7",

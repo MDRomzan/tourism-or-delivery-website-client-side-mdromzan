@@ -15,6 +15,7 @@ import NotFound from './pages/NotFound/NotFound';
 import MyOrders from './pages/MyOrders/MyOrders';
 import ManageServices from './pages/ManageServices/ManageServices';
 import AddServices from './pages/AddServices/AddServices';
+import UpdateUser from './pages/UpdateUser/UpdateUser';
 const App = () => {
     return (
         <div>
@@ -43,6 +44,10 @@ const App = () => {
                 <Route exact path="/booking/:id">
                     <Booking></Booking>
                 </Route>
+                {/* <Route exact path="/update-user/:id">
+                    <UpdateUser></UpdateUser>
+                </Route> */}
+
                 <Route exact path="/about">
                     <About></About>
                 </Route>

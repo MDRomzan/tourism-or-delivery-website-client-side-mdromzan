@@ -17,7 +17,7 @@ const Banner = () => {
         alt="First slide"
         />
     <Carousel.Caption>
-        <Link to="/details/:id">
+        <Link to="/booking/:id">
              <button className="btn-button">Booking Now</button>
         </Link>
 
@@ -37,7 +37,7 @@ const Banner = () => {
       alt="Second slide"
     />
     <Carousel.Caption>
-       <Link to="/details/:id">
+       <Link to="/booking/:id">
              <button className="btn-button">Booking Now</button>
         </Link>
         
@@ -56,7 +56,7 @@ const Banner = () => {
       alt="Third slide"
     />
     <Carousel.Caption>
-    <Link to="/details/:id">
+    <Link to="/booking/:id">
              <button className="btn-button">Booking Now</button>
         </Link>
         
