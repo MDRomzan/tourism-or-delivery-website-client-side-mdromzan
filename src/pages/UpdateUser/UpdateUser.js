@@ -38,7 +38,7 @@ const UpdateUser = () => {
         setService(updateService)
     }
      const handleServiceUpdate=(e)=>{
-        const url = `http://localhost:8080/services/${id}`;
+        const url = `https://mysterious-cliffs-16987.herokuapp.com/services/${id}`;
          fetch(url,{
             method:"PUT",
             headers:{

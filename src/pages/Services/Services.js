@@ -14,6 +14,8 @@ const Services = () => {
     return (
         <div className="container">
             <div className="row ">
+                <h1 className="text-warning text-center">Popular Travels & Tours</h1>
+                <p className="text-center">Popular Travels & Tours, in the heart of Rome center since 2002, provides first rate personalized services </p>
                 {
                     services.map(service =><Service
                     key={service._id}

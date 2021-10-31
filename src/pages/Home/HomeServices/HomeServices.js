@@ -9,6 +9,8 @@ import "./HomeServices.css"
 const HomeServices = () => {
     return (
         <div className="row d-flex justify-content-center mx-auto cut-img container">
+            <h1 className="text-center text-danger">Features of Popular Beautiful Sports</h1>
+            <hr />
             <div className="col-md-4 col-sm-12">
             <img src={pic1} alt="" />
             <img src={pic2} alt="" />

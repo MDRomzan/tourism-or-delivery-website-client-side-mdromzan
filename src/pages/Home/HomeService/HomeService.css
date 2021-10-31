@@ -1,0 +1,9 @@
+
+
+
+@media only screen and (max-width: 600px) {
+      .size-card img{
+        width: 250px;
+        height:auto
+    }   
+}

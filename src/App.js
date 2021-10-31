@@ -16,6 +16,7 @@ import MyOrders from './pages/MyOrders/MyOrders';
 import ManageServices from './pages/ManageServices/ManageServices';
 import AddServices from './pages/AddServices/AddServices';
 import UpdateUser from './pages/UpdateUser/UpdateUser';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
 const App = () => {
     return (
         <div>
@@ -35,18 +36,19 @@ const App = () => {
                 <Route exact path="/my-orders">
                    <MyOrders></MyOrders>
                 </Route>
-              <Route exact path="/manage-services">
+              <PrivateRoute exact path="/manage-services">
                    <ManageServices></ManageServices>
-                </Route>
+                </PrivateRoute>
                 <Route exact path="/add-services">
                     <AddServices></AddServices>
                 </Route>
-                <Route exact path="/booking/:id">
+               
+                <PrivateRoute exact path="/booking/:id">
                     <Booking></Booking>
-                </Route>
-                 <Route exact path="/update-user/:id">
+                </PrivateRoute>
+                 <PrivateRoute exact path="/update-user/:id">
                     <UpdateUser></UpdateUser>
-                </Route> 
+                </PrivateRoute> 
 
                 <Route exact path="/about">
                     <About></About>

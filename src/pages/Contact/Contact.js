@@ -23,8 +23,8 @@ const Contact = () => {
             <div>
             <h2 className="text-center">This is Our Contact us</h2>
             <hr />
-            <div className="row d-flex mx-5 contact-us ">
-              <div className="col-md-4 contact email">
+            <div className="row  d-flex mx-5 contact-us ">
+              <div className=" shadow-lg col-md-4 contact email">
                 <h2 className="text-center">
 
                      E-mail
@@ -37,7 +37,7 @@ const Contact = () => {
                
 
               </div>
-              <div className="col-md-4 contact phone-p">
+              <div className=" shadow-lg col-md-4 contact phone-p">
                 <h2 className="text-center">
                  Phone
                  < hr/>
@@ -53,7 +53,7 @@ const Contact = () => {
 
               </div>
               
-            <div className="col-md-4 contact address">
+            <div className=" shadow-lg col-md-4 contact address">
                 <h2 className="text-center">
                       Address
                       <hr/>

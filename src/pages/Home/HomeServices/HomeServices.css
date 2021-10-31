@@ -7,3 +7,9 @@
     height:100px ;
 
 }
+@media only screen and (max-width: 600px){
+    .cut-img img {
+        width: 290px;
+        height: 190px;
+    }
+}
