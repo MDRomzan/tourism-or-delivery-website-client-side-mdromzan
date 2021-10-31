@@ -44,9 +44,9 @@ const App = () => {
                 <Route exact path="/booking/:id">
                     <Booking></Booking>
                 </Route>
-                {/* <Route exact path="/update-user/:id">
+                 <Route exact path="/update-user/:id">
                     <UpdateUser></UpdateUser>
-                </Route> */}
+                </Route> 
 
                 <Route exact path="/about">
                     <About></About>
