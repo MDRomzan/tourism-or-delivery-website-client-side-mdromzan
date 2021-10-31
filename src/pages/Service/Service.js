@@ -12,7 +12,7 @@ const Service = ({service}) => {
     }
     return (
         
-           <div className="shadow-lg text-center col-lg-4 my-3 p-4">
+           <div className="shadow-lg text-center col-lg-4 my-3 p-4 col-md-6 col-sm-12">
             <img className="ima-size" src={img} alt="" />
             <h3>{name}</h3>
             <h5>Price:$ {price}</h5>

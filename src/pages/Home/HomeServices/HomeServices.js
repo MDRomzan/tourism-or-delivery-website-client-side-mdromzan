@@ -9,16 +9,16 @@ import "./HomeServices.css"
 const HomeServices = () => {
     return (
         <div className="row d-flex justify-content-center mx-auto cut-img container">
-            <div className="col-md-4">
+            <div className="col-md-4 col-sm-12">
             <img src={pic1} alt="" />
             <img src={pic2} alt="" />
                       
             </div>
-            <div className="col-md-4">     
+            <div className="col-md-4  col-sm-12">     
                 <img src={pic3} alt="" />
                  <img className="size" src={pic4} alt="" />
             </div> 
-             <div className="col-md-4"> 
+             <div className="col-md-4  col-sm-12"> 
                 <img src={pic5} alt=""/>     
                 <img src={pic6} alt="" />
             </div>            
