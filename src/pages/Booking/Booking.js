@@ -28,7 +28,7 @@ const Booking = () => {
         const savedCart=getStoredCart()
         data.order =savedCart;
     //   console.log(data)
-        fetch('http://localhost:8080/orders',{
+        fetch('https://mysterious-cliffs-16987.herokuapp.com/orders', {
             method:'POST',
             headers:{
                 'content-type':'application/json'

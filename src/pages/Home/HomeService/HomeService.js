@@ -15,7 +15,7 @@ const HomeService = () => {
                 <h4>{service?.price}</h4>
                 <p>{service?.Description}</p>
                 <Link to={`/booking/${service._id}`}>
-                    <button className="btn-button">Booking</button>
+                <button className="btn-button">Booking</button>
                 </Link>
               </div>)  
             }
